@@ -1,0 +1,100 @@
+.containerN {
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    
+}
+.naranja {
+    
+    margin: 1vh;
+    height: 100px;
+    width: 100%;
+    background-color: orange;
+}
+.containerV {
+    display: flex;
+    flex-direction: column;
+    
+}
+.verde {
+    margin: 1vh;
+    width: 100%;
+    height: 300px;   
+    background-color: rgb(212, 250, 0);
+}
+.containerA {
+    display: flex;
+    flex-direction: table-row;
+    width: 100%;
+}
+.azul {
+    display: flex;
+    margin: 1vh;
+    height: 300px;
+    width: 33%;
+    background-color: rgb(0, 89, 255);
+}
+.containerG {
+    display: flex;
+    flex-direction: table-row;
+    width: 100%;
+    
+}
+.gris {
+    display: flex;
+    margin: 1vh;
+    height: 200px;
+    width: 25%;
+    background-color: rgb(98, 98, 99);
+}
+
+@media (max-width: 768px) {
+    .containerN {
+        flex-direction: column;
+    } 
+    .naranja {
+        
+        height: 90px;
+        width: 100%;
+    }
+    .verde {
+        height: 250px;
+    }
+    .containerA {
+        flex-direction: column;
+    }
+    .azul {
+        height: 150px;
+        width: 100%;
+    }
+    .gris {
+        width: 50%;
+    }
+}
+@media (max-width: 320px) {
+    .containerN {
+        flex-direction: column;
+        
+    } 
+    .naranja {
+        height: 70px;
+    }
+    .verde {
+        height: 150px;
+    }
+    .containerA {
+        flex-direction: column;
+    }
+    .azul{
+        width: 100%;
+        height: 250px;
+    }
+    .containerG {
+        flex-direction: column;
+    }
+    .gris{
+        width: 100%;
+        height: 90px;
+    }
+}
